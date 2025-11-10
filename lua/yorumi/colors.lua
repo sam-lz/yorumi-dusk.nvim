@@ -1,58 +1,115 @@
 ---@class PaletteColors
 local palette = {
-  -- yoru: neutrals / backgrounds (dark → light)  [Yorumi]
-  yoru0   = "#060914", -- bg
-  yoru1   = "#0C0F1A",
-  yoru2   = "#121520", -- good as selection bg if you want very low contrast
+  -- yoru: neutrals / backgrounds (dark → light)
+  yoru0   = "#0C0F1A", -- bg (slightly lighter than Yorumi's deepest to lower contrast)
+  yoru1   = "#121520",
+  yoru2   = "#1D202B", -- subtle selection/float bg
   yoru3   = "#1D202B",
 
-  -- tsuki: lighter neutrals / tints (fgs)        [Yorumi]
+  -- tsuki: lighter neutrals / tints (fg ladder)
   tsuki0  = "#656771",
   tsuki1  = "#878996",
   tsuki2  = "#A7A9B5", -- default fg
   tsuki3  = "#BDBFCB",
-  tsuki4  = "#C6DFEC",
+  tsuki4  = "#A4DCE7", -- Sleepy Hollow cool tint for headers/borders
 
-  -- kuroi: very dark tinted hues / utility       [Yorumi]
+  -- kuroi: very dark tinted hues / utility
   kuroiRed      = "#4E0E0E",
   kuroiGreen    = "#1C4642",
   kuroiBlue     = "#0D2C4E",
   kuroiYellow   = "#6B5905",
-  kuroiViolet   = "#0E0D17",
+  kuroiViolet   = "#575256", -- Sleepy Hollow selection tone as a neutral violet-ish
   kuroiBlack    = "#121210",
   kuroiGray     = "#343742",
 
-  -- umi: muted mid accents (keep cool)           [Yorumi base, with warm magenta from SH]
+  -- umi: muted mid accents (add SH warmth where helpful)
   umiRed        = "#913B3B",
   umiOrange     = "#9C672B",
-  umiGreen      = "#667C4B",
+  umiGreen      = "#8FAEA9", -- Sleepy Hollow teal as “green”
   umiBlue       = "#42778A",
   umiYellow     = "#9D672F",
-  umiMagenta    = "#A17C7B", -- Sleepy Hollow
-  umiCyan       = "#49837E",
+  umiMagenta    = "#A17C7B", -- Sleepy Hollow warm magenta
+  umiCyan       = "#8FAEA9", -- Sleepy Hollow
 
-  -- sango: standard mid accents (add SH warmth on red/yellow)
+  -- sango: standard mid accents
   sangoRed      = "#BA3934", -- Sleepy Hollow
   sangoOrange   = "#D29146",
   sangoGreen    = "#80AA6E",
   sangoBlue     = "#597BC0",
   sangoYellow   = "#D6B04E", -- Sleepy Hollow
   sangoMagenta  = "#B4647F",
-  sangoViolet   = "#A188C3",
-  sangoCyan     = "#7AA8A7",
+  sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested replacement)
+  sangoCyan     = "#A4DCE7", -- Sleepy Hollow
 
-  -- kairo: brighter accents (mostly cool Yorumi; warm brights from SH)
+  -- kairo: brighter accents
   kairoRed      = "#D9443F", -- Sleepy Hollow
   kairoOrange   = "#F66813", -- Sleepy Hollow
   kairoGreen    = "#9CB67D",
-  kairoBlue     = "#788AD3", -- cooler than SH’s vivid blue
-  kairoYellow   = "#D6B04E", -- Sleepy Hollow
-  kairoMagenta  = "#DA72A2",
-  kairoViolet   = "#958EBE",
+  kairoBlue     = "#788AD3",
+  kairoYellow   = "#D6B476",
+  kairoMagenta  = "#E2C2BB", -- Sleepy Hollow warm bright
+  kairoViolet   = "#8086EF", -- Sleepy Hollow light violet
   kairoCyan     = "#85C7B8",
 }
 
 return palette
+
+
+-----@class PaletteColors
+--local palette = {
+--  -- yoru: neutrals / backgrounds (dark → light)  [Yorumi]
+--  yoru0   = "#060914", -- bg
+--  yoru1   = "#0C0F1A",
+--  yoru2   = "#121520", -- good as selection bg if you want very low contrast
+--  yoru3   = "#1D202B",
+
+--  -- tsuki: lighter neutrals / tints (fgs)        [Yorumi]
+--  tsuki0  = "#656771",
+--  tsuki1  = "#878996",
+--  tsuki2  = "#A7A9B5", -- default fg
+--  tsuki3  = "#BDBFCB",
+--  tsuki4  = "#C6DFEC",
+
+--  -- kuroi: very dark tinted hues / utility       [Yorumi]
+--  kuroiRed      = "#4E0E0E",
+--  kuroiGreen    = "#1C4642",
+--  kuroiBlue     = "#0D2C4E",
+--  kuroiYellow   = "#6B5905",
+--  kuroiViolet   = "#0E0D17",
+--  kuroiBlack    = "#121210",
+--  kuroiGray     = "#343742",
+
+--  -- umi: muted mid accents (keep cool)           [Yorumi base, with warm magenta from SH]
+--  umiRed        = "#913B3B",
+--  umiOrange     = "#9C672B",
+--  umiGreen      = "#667C4B",
+--  umiBlue       = "#42778A",
+--  umiYellow     = "#9D672F",
+--  umiMagenta    = "#A17C7B", -- Sleepy Hollow
+--  umiCyan       = "#49837E",
+
+--  -- sango: standard mid accents (add SH warmth on red/yellow)
+--  sangoRed      = "#BA3934", -- Sleepy Hollow
+--  sangoOrange   = "#D29146",
+--  sangoGreen    = "#80AA6E",
+--  sangoBlue     = "#597BC0",
+--  sangoYellow   = "#D6B04E", -- Sleepy Hollow
+--  sangoMagenta  = "#B4647F",
+--  sangoViolet   = "#A188C3",
+--  sangoCyan     = "#7AA8A7",
+
+--  -- kairo: brighter accents (mostly cool Yorumi; warm brights from SH)
+--  kairoRed      = "#D9443F", -- Sleepy Hollow
+--  kairoOrange   = "#F66813", -- Sleepy Hollow
+--  kairoGreen    = "#9CB67D",
+--  kairoBlue     = "#788AD3", -- cooler than SH’s vivid blue
+--  kairoYellow   = "#D6B04E", -- Sleepy Hollow
+--  kairoMagenta  = "#DA72A2",
+--  kairoViolet   = "#958EBE",
+--  kairoCyan     = "#85C7B8",
+--}
+
+--return palette
 
 
 -----@class PaletteColors

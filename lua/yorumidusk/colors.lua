@@ -38,10 +38,11 @@ local palette = {
   -- sangoGreen    = "#80AA6E",
   sangoGreen    = "#8FAEA9",
   -- sangoBlue     = "#597BC0",
-  sangoBlue     = "#5F63B4",
+  sangoBlue     = "#2055CC",
   sangoYellow   = "#D6B04E", -- Sleepy Hollow
   sangoMagenta  = "#B4647F",
-  sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested)
+  -- sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested)
+  sangoViolet   = "#5F63B4", -- Sleepy Hollow light violet (requested)
   sangoCyan     = "#A4DCE7", -- Sleepy Hollow (kept slightly bright for accents)
 
   -- kairo: brighter accents (mostly cool; SH for red/orange/violet)

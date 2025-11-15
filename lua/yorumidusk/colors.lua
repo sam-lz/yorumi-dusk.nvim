@@ -10,8 +10,8 @@ local palette = {
   -- tsuki: lighter neutrals / tints (raised contrast a bit)
   tsuki0  = "#5A5C66",
   tsuki1  = "#B5BAC4",
-  tsuki2  = "#B3B8C3",
-  tsuki3  = "#C7CCD6",
+  tsuki2  = "#AEB4BF",
+  tsuki3  = "#C0C5D0",
   tsuki4  = "#A4DCE7",
 
   -- kuroi: very dark tinted hues / utility

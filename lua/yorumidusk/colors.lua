@@ -35,8 +35,9 @@ local palette = {
   -- sango: standard mid accents (Sleepy Hollow–leaning, timeless)
   sangoRed     = "#BA3934", -- SH red
   sangoOrange  = "#B55600", -- closer to SH orange
-  sangoGreen   = "#8FAEA9", -- SH teal used as “green”
-  sangoBlue    = "#5F63B4", -- SH indigo
+  sangoGreen   = "#80AA6E", -- SH teal used as “green”
+  -- sangoBlue    = "#5F63B4", -- SH indigo
+  sangoBlue    = "#597BC0", -- SH indigo
   sangoYellow  = "#D6B04E", -- SH yellow
   sangoMagenta = "#B4647F",
   sangoViolet  = "#8086EF", -- SH light violet

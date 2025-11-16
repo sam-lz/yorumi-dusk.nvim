@@ -1,8 +1,8 @@
 local M = {}
 
----@param config YorumiDuskConfig
+---@param config YorumiConfig
 function M.setup(config)
-  local palette = require("yorumidusk.colors")
+  local palette = require("yorumi.colors")
 
   return {
     ColorColumn   = { bg = palette.yoru2 },
@@ -116,6 +116,43 @@ function M.setup(config)
     diffChanged = { fg = palette.sangoYellow },
     diffOldFile = { fg = palette.sangoRed },
     diffNewFile = { fg = palette.sangoGreen },
+
+
+
+
+
+  -- main window
+  Normal       = { fg = palette.tsuki2, bg = "NONE" },
+  NormalNC     = { fg = palette.tsuki2, bg = "NONE" },
+
+  -- floating windows
+  NormalFloat  = { fg = palette.tsuki2, bg = "NONE" },
+  FloatBorder  = { fg = palette.kuroiGray, bg = "NONE" }, -- or link to WinSeparator
+
+  -- line numbers / sign column
+  LineNr       = { fg = palette.kuroiGray, bg = "NONE" },
+  CursorLineNr = { fg = palette.tsuki3,   bg = "NONE" },
+  SignColumn   = { fg = palette.kuroiGray, bg = "NONE" },
+
+  -- statusline / tabline, choose per taste:
+  StatusLine   = { fg = palette.tsuki2, bg = "NONE" },
+  StatusLineNC = { fg = palette.tsuki1, bg = "NONE" },
+
+  -- others you might want transparent:
+  ColorColumn  = { bg = "NONE" },
+  CursorLine   = { bg = "NONE" },
+  FoldColumn   = { fg = palette.kuroiGray, bg = "NONE" },
+
+
+
+
+
+
+
+
+
+
+
   }
 end
 

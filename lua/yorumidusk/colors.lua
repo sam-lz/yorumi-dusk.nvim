@@ -33,14 +33,14 @@ local palette = {
   umiCyan     = "#49837E",
 
   -- sango: standard mid accents (Sleepy Hollow–leaning, timeless)
-  sangoRed     = "#BA3934", -- SH red
-  sangoOrange  = "#B55600", -- closer to SH orange
-  sangoGreen   = "#80AA6E", -- SH teal used as “green”
-  sangoBlue    = "#4A82FF", -- SH indigo #5571C0
-  sangoYellow  = "#D6B04E", -- SH yellow
+  sangoRed     = "#BA3934",
+  sangoOrange  = "#B55600",
+  sangoGreen   = "#8AA25F",
+  sangoBlue    = "#4A82FF",
+  sangoYellow  = "#D6B04E",
   sangoMagenta = "#B4647F",
-  sangoViolet  = "#8262FF", -- SH light violet #7880EF #6A5AFF
-  sangoCyan    = "#9FD3E2",
+  sangoViolet  = "#7275F2",
+  sangoCyan    = "#8FD4EA", -- #9FD3E2
 
   -- kairo: brighter accents (slightly higher contrast, still soft)
   kairoRed     = "#D9443F",
